@@ -101,6 +101,12 @@
 		<Unit filename="C:/Users/Andrew/CLionProjects/ITAK/KeyValue.h">
 			<Option target="ITAK"/>
 		</Unit>
+		<Unit filename="C:/Users/Andrew/CLionProjects/ITAK/PortScanAnalyzer.cpp">
+			<Option target="ITAK"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrew/CLionProjects/ITAK/PortScanAnalyzer.h">
+			<Option target="ITAK"/>
+		</Unit>
 		<Unit filename="C:/Users/Andrew/CLionProjects/ITAK/ResultSet.cpp">
 			<Option target="ITAK"/>
 		</Unit>

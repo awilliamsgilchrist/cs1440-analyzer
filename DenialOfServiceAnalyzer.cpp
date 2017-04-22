@@ -5,7 +5,7 @@ ResultSet DenialOfServiceAnalyzer::run(std::istream& in)
     std::string address;
     std::string timestamp;
     std::string garbage;
-    Dictionary<std::string, unsigned int>* timestampCountDict;
+    Dictionary<std::string, unsigned int> timestampCountDict;
 
     while(!in.eof())
     {
@@ -15,32 +15,35 @@ ResultSet DenialOfServiceAnalyzer::run(std::istream& in)
 
         try
         {
-            timestampCountDict = m_addressSummaryDict.getRef(address);
+            timestampCountDict = m_addressSummaryDict.get(address);
         }
         catch(Exception e)
         {
-            timestampCountDict = new Dictionary<std::string, unsigned int>();
-            m_addressSummaryDict.add(address, *timestampCountDict);
+            timestampCountDict = Dictionary<std::string, unsigned int>();
+            m_addressSummaryDict.add(address, timestampCountDict);
         }
 
         try
         {
-            timestampCountDict->changeVal(timestamp, timestampCountDict->get(timestamp) + 1);
+            timestampCountDict.changeVal(timestamp, timestampCountDict.get(timestamp) + 1);
         }
         catch(Exception e)
         {
-            timestampCountDict->add(timestamp, 1);
+            timestampCountDict.add(timestamp, 1);
         }
+
+        m_addressSummaryDict.changeVal(address, timestampCountDict);
     }
-    timestampCountDict = nullptr;
 
     ResultSet result;
-    result.data.add("Likely attackers", std::vector<std::string>());
-    result.data.add("Possible attackers", std::vector<std::string>());
-    result.data.add("Attack periods", std::vector<std::string>());
-    result.data.add("Timeframe", std::vector<std::string>());
+    std::vector<std::string> likelyVect;
+    std::vector<std::string> possibVect;
+    std::vector<std::string> perVect;
+    std::vector<std::string> timeVect;
+
 
     int timeframe = m_configuration.getValInt("Timeframe");
+    timeVect.push_back(std::to_string(timeframe));
     int likelyThreshold = m_configuration.getValInt("Likely attack message count");
     int possibleThreshold = m_configuration.getValInt("Possible attack message count");
 
@@ -69,18 +72,22 @@ ResultSet DenialOfServiceAnalyzer::run(std::istream& in)
 
         if(messageCount >= possibleThreshold)
         {
-            result.data.getRef("Possible attackers")->push_back(addressSummary.getKey());
-            result.data.getRef("Atttack periods")->push_back(std::to_string(startTime) + " - " + std::to_string(startTime + timeframe));
+            possibVect.push_back(addressSummary.getKey());
+            perVect.push_back(std::to_string(startTime) + " - " + std::to_string(startTime + timeframe));
         }
 
         if(messageCount >= likelyThreshold)
         {
-            result.data.getRef("Likely attackers")->push_back(addressSummary.getKey());
+            likelyVect.push_back(addressSummary.getKey());
         }
 
         delete converter;
         converter = nullptr;
     }
 
+    result.data.add("Likely attackers", likelyVect);
+    result.data.add("Possible attackers", possibVect);
+    result.data.add("Attack periods", perVect);
+    result.data.add("Timeframe", timeVect);
     return result;
 }

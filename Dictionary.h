@@ -21,8 +21,8 @@ public:
     void add(K key, V value);
     V get(K key);
     V getByIndex(unsigned int index);
-    V* getRef(K key);
-    V* getRefByIndex(unsigned int index);
+    //V& getRef(K key);
+    //V& getRefByIndex(unsigned int index);
     std::vector<KeyValue<K, V>> getAll();
     void remove(K key);
     void remove(unsigned int index);
@@ -133,14 +133,14 @@ V Dictionary<K, V>::getByIndex(unsigned int index)
     }
 }
 
-template <typename K, typename V>
-V* Dictionary<K, V>::getRef(K key)
+/*template <typename K, typename V>
+V& Dictionary<K, V>::getRef(K key)
 {
     for(unsigned int i = 0; i < m_count; i++)
     {
         if(m_dict[i].getKey() == key)
         {
-            return &m_dict[i].getValue();
+            return m_dict[i].getValue();
         }
     }
 
@@ -148,17 +148,17 @@ V* Dictionary<K, V>::getRef(K key)
 }
 
 template <typename K, typename V>
-V* Dictionary<K, V>::getRefByIndex(unsigned int index)
+V& Dictionary<K, V>::getRefByIndex(unsigned int index)
 {
     if(index < m_count)
     {
-        return &m_dict[index].getValue();
+        return m_dict[index].getValue();
     }
     else
     {
         throw DefaultException;
     }
-}
+}*/
 
 template <typename K, typename V>
 std::vector<KeyValue<K, V>> Dictionary<K, V>::getAll()

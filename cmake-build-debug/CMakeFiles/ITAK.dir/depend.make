@@ -16,6 +16,15 @@ CMakeFiles/ITAK.dir/DenialOfServiceAnalyzer.cpp.obj: ../KeyValue.h
 CMakeFiles/ITAK.dir/DenialOfServiceAnalyzer.cpp.obj: ../ResultSet.h
 CMakeFiles/ITAK.dir/DenialOfServiceAnalyzer.cpp.obj: ../Utils.h
 
+CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.obj: ../Analyzer.h
+CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.obj: ../Configuration.h
+CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.obj: ../Dictionary.h
+CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.obj: ../KeyValue.h
+CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.obj: ../PortScanAnalyzer.cpp
+CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.obj: ../PortScanAnalyzer.h
+CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.obj: ../ResultSet.h
+CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.obj: ../Utils.h
+
 CMakeFiles/ITAK.dir/ResultSet.cpp.obj: ../Dictionary.h
 CMakeFiles/ITAK.dir/ResultSet.cpp.obj: ../KeyValue.h
 CMakeFiles/ITAK.dir/ResultSet.cpp.obj: ../ResultSet.cpp

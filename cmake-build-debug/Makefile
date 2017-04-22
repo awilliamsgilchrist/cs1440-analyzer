@@ -176,6 +176,33 @@ DenialOfServiceAnalyzer.cpp.s:
 	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/DenialOfServiceAnalyzer.cpp.s
 .PHONY : DenialOfServiceAnalyzer.cpp.s
 
+PortScanAnalyzer.obj: PortScanAnalyzer.cpp.obj
+
+.PHONY : PortScanAnalyzer.obj
+
+# target to build an object file
+PortScanAnalyzer.cpp.obj:
+	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.obj
+.PHONY : PortScanAnalyzer.cpp.obj
+
+PortScanAnalyzer.i: PortScanAnalyzer.cpp.i
+
+.PHONY : PortScanAnalyzer.i
+
+# target to preprocess a source file
+PortScanAnalyzer.cpp.i:
+	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.i
+.PHONY : PortScanAnalyzer.cpp.i
+
+PortScanAnalyzer.s: PortScanAnalyzer.cpp.s
+
+.PHONY : PortScanAnalyzer.s
+
+# target to generate assembly for a file
+PortScanAnalyzer.cpp.s:
+	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.s
+.PHONY : PortScanAnalyzer.cpp.s
+
 ResultSet.obj: ResultSet.cpp.obj
 
 .PHONY : ResultSet.obj
@@ -272,6 +299,9 @@ help:
 	@echo ... DenialOfServiceAnalyzer.obj
 	@echo ... DenialOfServiceAnalyzer.i
 	@echo ... DenialOfServiceAnalyzer.s
+	@echo ... PortScanAnalyzer.obj
+	@echo ... PortScanAnalyzer.i
+	@echo ... PortScanAnalyzer.s
 	@echo ... ResultSet.obj
 	@echo ... ResultSet.i
 	@echo ... ResultSet.s

@@ -19,7 +19,7 @@ ResultSet PortScanAnalyzer::run(std::istream &in)
         {
             portList = m_addressSummaryDict.get(address);
         }
-        catch(Exception e)
+        catch(MyException e)
         {
             m_addressSummaryDict.add(address, portList);
         }

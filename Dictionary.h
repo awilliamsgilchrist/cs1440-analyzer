@@ -4,7 +4,7 @@
 #include <vector>
 #include "KeyValue.h"
 
-enum Exception{DefaultException};
+enum MyException{DefaultException};
 
 template <typename K, typename V>
 class Dictionary

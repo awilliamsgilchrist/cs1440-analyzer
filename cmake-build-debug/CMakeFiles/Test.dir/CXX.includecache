@@ -86,9 +86,13 @@ string
 fstream
 -
 
-C:/Users/Andrew/CLionProjects/ITAK/main.cpp
+C:/Users/Andrew/CLionProjects/ITAK/testMain.cpp
+fstream
+-
 iostream
 -
+DenialOfServiceAnalyzer.h
+C:/Users/Andrew/CLionProjects/ITAK/DenialOfServiceAnalyzer.h
 PortScanAnalyzer.h
 C:/Users/Andrew/CLionProjects/ITAK/PortScanAnalyzer.h
 

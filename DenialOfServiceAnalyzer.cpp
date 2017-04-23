@@ -17,9 +17,9 @@ ResultSet DenialOfServiceAnalyzer::run(std::istream& in)
         {
             timestampCountDict = m_addressSummaryDict.get(address);
         }
-        catch(Exception e)
+        catch(MyException e)
         {
-            timestampCountDict = Dictionary<std::string, unsigned int>();
+            //timestampCountDict = Dictionary<std::string, unsigned int>();
             m_addressSummaryDict.add(address, timestampCountDict);
         }
 
@@ -27,7 +27,7 @@ ResultSet DenialOfServiceAnalyzer::run(std::istream& in)
         {
             timestampCountDict.changeVal(timestamp, timestampCountDict.get(timestamp) + 1);
         }
-        catch(Exception e)
+        catch(MyException e)
         {
             timestampCountDict.add(timestamp, 1);
         }

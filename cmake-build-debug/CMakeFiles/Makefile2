@@ -96,6 +96,43 @@ clean: CMakeFiles/ITAK.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/Test.dir
+
+# All Build rule for target.
+CMakeFiles/Test.dir/all:
+	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/depend
+	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Andrew\CLionProjects\ITAK\cmake-build-debug\CMakeFiles --progress-num=8,9,10,11,12,13,14 "Built target Test"
+.PHONY : CMakeFiles/Test.dir/all
+
+# Include target in all.
+all: CMakeFiles/Test.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Andrew\CLionProjects\ITAK\cmake-build-debug\CMakeFiles 7
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Andrew\CLionProjects\ITAK\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Test.dir/rule
+
+# Convenience name for target.
+Test: CMakeFiles/Test.dir/rule
+
+.PHONY : Test
+
+# clean rule for target.
+CMakeFiles/Test.dir/clean:
+	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/clean
+.PHONY : CMakeFiles/Test.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Test.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.

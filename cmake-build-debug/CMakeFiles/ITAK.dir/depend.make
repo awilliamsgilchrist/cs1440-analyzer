@@ -34,5 +34,12 @@ CMakeFiles/ITAK.dir/ResultSet.cpp.obj: ../Utils.h
 CMakeFiles/ITAK.dir/Utils.cpp.obj: ../Utils.cpp
 CMakeFiles/ITAK.dir/Utils.cpp.obj: ../Utils.h
 
+CMakeFiles/ITAK.dir/main.cpp.obj: ../Analyzer.h
+CMakeFiles/ITAK.dir/main.cpp.obj: ../Configuration.h
+CMakeFiles/ITAK.dir/main.cpp.obj: ../Dictionary.h
+CMakeFiles/ITAK.dir/main.cpp.obj: ../KeyValue.h
+CMakeFiles/ITAK.dir/main.cpp.obj: ../PortScanAnalyzer.h
+CMakeFiles/ITAK.dir/main.cpp.obj: ../ResultSet.h
+CMakeFiles/ITAK.dir/main.cpp.obj: ../Utils.h
 CMakeFiles/ITAK.dir/main.cpp.obj: ../main.cpp
 

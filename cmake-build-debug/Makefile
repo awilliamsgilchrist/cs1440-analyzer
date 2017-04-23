@@ -122,6 +122,19 @@ ITAK/fast:
 	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/build
 .PHONY : ITAK/fast
 
+#=============================================================================
+# Target rules for targets named Test
+
+# Build rule for target.
+Test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Test
+.PHONY : Test
+
+# fast build rule for target.
+Test/fast:
+	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/build
+.PHONY : Test/fast
+
 Configuration.obj: Configuration.cpp.obj
 
 .PHONY : Configuration.obj
@@ -129,6 +142,7 @@ Configuration.obj: Configuration.cpp.obj
 # target to build an object file
 Configuration.cpp.obj:
 	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/Configuration.cpp.obj
+	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/Configuration.cpp.obj
 .PHONY : Configuration.cpp.obj
 
 Configuration.i: Configuration.cpp.i
@@ -138,6 +152,7 @@ Configuration.i: Configuration.cpp.i
 # target to preprocess a source file
 Configuration.cpp.i:
 	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/Configuration.cpp.i
+	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/Configuration.cpp.i
 .PHONY : Configuration.cpp.i
 
 Configuration.s: Configuration.cpp.s
@@ -147,6 +162,7 @@ Configuration.s: Configuration.cpp.s
 # target to generate assembly for a file
 Configuration.cpp.s:
 	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/Configuration.cpp.s
+	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/Configuration.cpp.s
 .PHONY : Configuration.cpp.s
 
 DenialOfServiceAnalyzer.obj: DenialOfServiceAnalyzer.cpp.obj
@@ -156,6 +172,7 @@ DenialOfServiceAnalyzer.obj: DenialOfServiceAnalyzer.cpp.obj
 # target to build an object file
 DenialOfServiceAnalyzer.cpp.obj:
 	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/DenialOfServiceAnalyzer.cpp.obj
+	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/DenialOfServiceAnalyzer.cpp.obj
 .PHONY : DenialOfServiceAnalyzer.cpp.obj
 
 DenialOfServiceAnalyzer.i: DenialOfServiceAnalyzer.cpp.i
@@ -165,6 +182,7 @@ DenialOfServiceAnalyzer.i: DenialOfServiceAnalyzer.cpp.i
 # target to preprocess a source file
 DenialOfServiceAnalyzer.cpp.i:
 	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/DenialOfServiceAnalyzer.cpp.i
+	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/DenialOfServiceAnalyzer.cpp.i
 .PHONY : DenialOfServiceAnalyzer.cpp.i
 
 DenialOfServiceAnalyzer.s: DenialOfServiceAnalyzer.cpp.s
@@ -174,6 +192,7 @@ DenialOfServiceAnalyzer.s: DenialOfServiceAnalyzer.cpp.s
 # target to generate assembly for a file
 DenialOfServiceAnalyzer.cpp.s:
 	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/DenialOfServiceAnalyzer.cpp.s
+	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/DenialOfServiceAnalyzer.cpp.s
 .PHONY : DenialOfServiceAnalyzer.cpp.s
 
 PortScanAnalyzer.obj: PortScanAnalyzer.cpp.obj
@@ -183,6 +202,7 @@ PortScanAnalyzer.obj: PortScanAnalyzer.cpp.obj
 # target to build an object file
 PortScanAnalyzer.cpp.obj:
 	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.obj
+	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/PortScanAnalyzer.cpp.obj
 .PHONY : PortScanAnalyzer.cpp.obj
 
 PortScanAnalyzer.i: PortScanAnalyzer.cpp.i
@@ -192,6 +212,7 @@ PortScanAnalyzer.i: PortScanAnalyzer.cpp.i
 # target to preprocess a source file
 PortScanAnalyzer.cpp.i:
 	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.i
+	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/PortScanAnalyzer.cpp.i
 .PHONY : PortScanAnalyzer.cpp.i
 
 PortScanAnalyzer.s: PortScanAnalyzer.cpp.s
@@ -201,6 +222,7 @@ PortScanAnalyzer.s: PortScanAnalyzer.cpp.s
 # target to generate assembly for a file
 PortScanAnalyzer.cpp.s:
 	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.s
+	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/PortScanAnalyzer.cpp.s
 .PHONY : PortScanAnalyzer.cpp.s
 
 ResultSet.obj: ResultSet.cpp.obj
@@ -210,6 +232,7 @@ ResultSet.obj: ResultSet.cpp.obj
 # target to build an object file
 ResultSet.cpp.obj:
 	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/ResultSet.cpp.obj
+	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/ResultSet.cpp.obj
 .PHONY : ResultSet.cpp.obj
 
 ResultSet.i: ResultSet.cpp.i
@@ -219,6 +242,7 @@ ResultSet.i: ResultSet.cpp.i
 # target to preprocess a source file
 ResultSet.cpp.i:
 	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/ResultSet.cpp.i
+	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/ResultSet.cpp.i
 .PHONY : ResultSet.cpp.i
 
 ResultSet.s: ResultSet.cpp.s
@@ -228,6 +252,7 @@ ResultSet.s: ResultSet.cpp.s
 # target to generate assembly for a file
 ResultSet.cpp.s:
 	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/ResultSet.cpp.s
+	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/ResultSet.cpp.s
 .PHONY : ResultSet.cpp.s
 
 Utils.obj: Utils.cpp.obj
@@ -237,6 +262,7 @@ Utils.obj: Utils.cpp.obj
 # target to build an object file
 Utils.cpp.obj:
 	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/Utils.cpp.obj
+	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/Utils.cpp.obj
 .PHONY : Utils.cpp.obj
 
 Utils.i: Utils.cpp.i
@@ -246,6 +272,7 @@ Utils.i: Utils.cpp.i
 # target to preprocess a source file
 Utils.cpp.i:
 	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/Utils.cpp.i
+	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/Utils.cpp.i
 .PHONY : Utils.cpp.i
 
 Utils.s: Utils.cpp.s
@@ -255,6 +282,7 @@ Utils.s: Utils.cpp.s
 # target to generate assembly for a file
 Utils.cpp.s:
 	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/Utils.cpp.s
+	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/Utils.cpp.s
 .PHONY : Utils.cpp.s
 
 main.obj: main.cpp.obj
@@ -284,6 +312,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\ITAK.dir\build.make CMakeFiles/ITAK.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+testMain.obj: testMain.cpp.obj
+
+.PHONY : testMain.obj
+
+# target to build an object file
+testMain.cpp.obj:
+	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/testMain.cpp.obj
+.PHONY : testMain.cpp.obj
+
+testMain.i: testMain.cpp.i
+
+.PHONY : testMain.i
+
+# target to preprocess a source file
+testMain.cpp.i:
+	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/testMain.cpp.i
+.PHONY : testMain.cpp.i
+
+testMain.s: testMain.cpp.s
+
+.PHONY : testMain.s
+
+# target to generate assembly for a file
+testMain.cpp.s:
+	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/testMain.cpp.s
+.PHONY : testMain.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -293,6 +348,7 @@ help:
 	@echo ... edit_cache
 	@echo ... ITAK
 	@echo ... rebuild_cache
+	@echo ... Test
 	@echo ... Configuration.obj
 	@echo ... Configuration.i
 	@echo ... Configuration.s
@@ -311,6 +367,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... testMain.obj
+	@echo ... testMain.i
+	@echo ... testMain.s
 .PHONY : help
 
 

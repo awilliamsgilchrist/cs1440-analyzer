@@ -2,7 +2,9 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" buildAllGenerated="true">
     <generated>
+      <config projectName="ITAK" targetName="Text" />
       <config projectName="ITAK" targetName="ITAK" />
+      <config projectName="ITAK" targetName="Test" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -12,29 +14,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81a6fbb8-63b9-43aa-8190-ec05cf05a2bf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PortScanAnalyzer.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PortScanAnalyzer.h" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITAK.dir/Configuration.cpp.obj" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITAK.dir/Configuration.cpp.obj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITAK.dir/ResultSet.cpp.obj" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITAK.dir/ResultSet.cpp.obj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testInput.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testMain.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Configuration.cpp" afterPath="$PROJECT_DIR$/Configuration.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DenialOfServiceAnalyzer.cpp" afterPath="$PROJECT_DIR$/DenialOfServiceAnalyzer.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dictionary.h" afterPath="$PROJECT_DIR$/Dictionary.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITAK.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITAK.dir/DependInfo.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITAK.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITAK.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITAK.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITAK.dir/cmake_clean.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITAK.dir/objects1.rsp" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITAK.dir/objects1.rsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITAK.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ITAK.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KeyValue.h" afterPath="$PROJECT_DIR$/KeyValue.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PortScanAnalyzer.cpp" afterPath="$PROJECT_DIR$/PortScanAnalyzer.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/ITAK.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/ITAK.cbp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,31 +48,35 @@
       <file leaf-file-name="Dictionary.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dictionary.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="24" column="6" lean-forward="false" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+            <state relative-caret-position="347">
+              <caret line="119" column="0" lean-forward="false" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
               <folding>
                 <element signature="e#79#96#0" expanded="true" />
-                <element signature="e#3186#3210#0" expanded="true" />
-                <element signature="e#3894#3918#0" expanded="true" />
-                <marker date="1492900208266" expanded="true" signature="3266:3424" ph="{...}" />
-                <marker date="1492900208266" expanded="true" signature="3497:3689" ph="{...}" />
-                <marker date="1492900208266" expanded="true" signature="3775:3883" ph="{...}" />
-                <marker date="1492900208266" expanded="true" signature="3969:4177" ph="{...}" />
-                <marker date="1492900208266" expanded="true" signature="4288:4332" ph="{...}" />
-                <marker date="1492900208266" expanded="true" signature="4483:4627" ph="{...}" />
-                <marker date="1492900208266" expanded="true" signature="4695:4741" ph="{...}" />
+                <element signature="e#3188#3212#0" expanded="true" />
+                <element signature="e#3896#3920#0" expanded="true" />
+                <element signature="e#4345#4369#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Configuration.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Configuration.h">
+      <file leaf-file-name="DenialOfServiceAnalyzer.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DenialOfServiceAnalyzer.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+            <state relative-caret-position="308">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KeyValue.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/KeyValue.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
               <folding>
-                <element signature="e#59#76#0" expanded="true" />
+                <marker date="1492914285290" expanded="true" signature="124:446" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -86,54 +85,14 @@
       <file leaf-file-name="Configuration.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Configuration.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="36" column="26" lean-forward="false" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="52" />
+            <state relative-caret-position="482">
+              <caret line="35" column="55" lean-forward="false" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DenialOfServiceAnalyzer.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DenialOfServiceAnalyzer.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-528">
-              <caret line="45" column="50" lean-forward="false" selection-start-line="45" selection-start-column="50" selection-end-line="45" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DenialOfServiceAnalyzer.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DenialOfServiceAnalyzer.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PortScanAnalyzer.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PortScanAnalyzer.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="534">
-              <caret line="71" column="19" lean-forward="false" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PortScanAnalyzer.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PortScanAnalyzer.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Analyzer.h" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Analyzer.h" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Analyzer.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
@@ -145,23 +104,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ResultSet.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ResultSet.h">
+      <file leaf-file-name="DenialOfServiceAnalyzer.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DenialOfServiceAnalyzer.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+            <state relative-caret-position="198">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testMain.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testMain.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="17" selection-end-column="71" />
               <folding>
-                <element signature="e#51#68#0" expanded="true" />
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Utils.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Utils.cpp">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="814">
+              <caret line="37" column="29" lean-forward="false" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testInput.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testInput.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -175,21 +166,23 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/main.cpp" />
-        <option value="$PROJECT_DIR$/KeyValue.h" />
         <option value="$PROJECT_DIR$/Utils.cpp" />
         <option value="$PROJECT_DIR$/Configuration.h" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/ResultSet.cpp" />
         <option value="$PROJECT_DIR$/ResultSet.h" />
         <option value="$PROJECT_DIR$/Utils.h" />
         <option value="$PROJECT_DIR$/Analyzer.h" />
-        <option value="$PROJECT_DIR$/Configuration.cpp" />
-        <option value="$PROJECT_DIR$/Dictionary.h" />
-        <option value="$PROJECT_DIR$/DenialOfServiceAnalyzer.cpp" />
         <option value="$PROJECT_DIR$/DenialOfServiceAnalyzer.h" />
         <option value="$PROJECT_DIR$/PortScanAnalyzer.h" />
         <option value="$PROJECT_DIR$/PortScanAnalyzer.cpp" />
+        <option value="$PROJECT_DIR$/testInput.txt" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Configuration.cpp" />
+        <option value="$PROJECT_DIR$/Dictionary.h" />
+        <option value="$PROJECT_DIR$/DenialOfServiceAnalyzer.cpp" />
+        <option value="$PROJECT_DIR$/KeyValue.h" />
+        <option value="$PROJECT_DIR$/testMain.cpp" />
+        <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
   </component>
@@ -241,7 +234,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.eslint.eslintPackage" value="" />
   </component>
-  <component name="RunManager" selected="Application.Build All">
+  <component name="RunManager" selected="Application.Test">
     <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ITAK" TARGET_NAME="ITAK" CONFIG_NAME="Debug" TEST_MODE="SUITE_TEST">
       <envs />
       <method />
@@ -409,17 +402,22 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+    <configuration default="false" name="Build All" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="ITAK" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ITAK" TARGET_NAME="ITAK" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ITAK" RUN_TARGET_NAME="ITAK">
+    <configuration default="false" name="ITAK" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ITAK" TARGET_NAME="ITAK" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ITAK" RUN_TARGET_NAME="ITAK">
       <envs />
       <method />
     </configuration>
-    <list size="2">
+    <configuration default="false" name="Test" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ITAK" TARGET_NAME="Test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ITAK" RUN_TARGET_NAME="Test">
+      <envs />
+      <method />
+    </configuration>
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
       <item index="1" class="java.lang.String" itemvalue="Application.ITAK" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Test" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -436,12 +434,12 @@
       <option name="presentableId" value="Default" />
       <updated>1492886308249</updated>
       <workItem from="1492886315841" duration="12904000" />
-      <workItem from="1492899601707" duration="2991000" />
+      <workItem from="1492899601707" duration="9888000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15895000" />
+    <option name="totallyTimeSpent" value="22792000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -449,15 +447,15 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39956093" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -475,7 +473,19 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/DenialOfServiceAnalyzer.cpp</url>
+          <line>37</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/DenialOfServiceAnalyzer.cpp</url>
+          <line>4</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -494,15 +504,9 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#79#96#0" expanded="true" />
-            <element signature="e#3186#3210#0" expanded="true" />
-            <element signature="e#3894#3918#0" expanded="true" />
-            <marker date="1492900208266" expanded="true" signature="3266:3424" ph="{...}" />
-            <marker date="1492900208266" expanded="true" signature="3497:3689" ph="{...}" />
-            <marker date="1492900208266" expanded="true" signature="3775:3883" ph="{...}" />
-            <marker date="1492900208266" expanded="true" signature="3969:4177" ph="{...}" />
-            <marker date="1492900208266" expanded="true" signature="4288:4332" ph="{...}" />
-            <marker date="1492900208266" expanded="true" signature="4483:4627" ph="{...}" />
-            <marker date="1492900208266" expanded="true" signature="4695:4741" ph="{...}" />
+            <element signature="e#3188#3212#0" expanded="true" />
+            <element signature="e#3896#3920#0" expanded="true" />
+            <element signature="e#4345#4369#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -512,7 +516,7 @@
         <state relative-caret-position="264">
           <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
           <folding>
-            <element signature="e#59#76#0" expanded="true" />
+            <element signature="e#59#76#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -564,7 +568,7 @@
         <state relative-caret-position="308">
           <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
           <folding>
-            <element signature="e#51#68#0" expanded="true" />
+            <element signature="e#51#68#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -591,25 +595,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
+    <entry file="file://$PROJECT_DIR$/PortScanAnalyzer.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        <state relative-caret-position="1562">
+          <caret line="71" column="19" lean-forward="false" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/KeyValue.h">
+    <entry file="file://$PROJECT_DIR$/Configuration.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="12" column="50" lean-forward="false" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+          <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding>
+            <element signature="e#59#76#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utils.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -630,39 +637,103 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PortScanAnalyzer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ResultSet.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
           <folding>
-            <element signature="e#51#68#0" expanded="true" />
+            <element signature="e#51#68#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Utils.cpp">
+    <entry file="file://$PROJECT_DIR$/DenialOfServiceAnalyzer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Configuration.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="35" column="55" lean-forward="false" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testInput.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KeyValue.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
+          <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+          <folding>
+            <marker date="1492914285290" expanded="true" signature="124:446" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Dictionary.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="6" lean-forward="false" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+        <state relative-caret-position="347">
+          <caret line="119" column="0" lean-forward="false" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
           <folding>
             <element signature="e#79#96#0" expanded="true" />
-            <element signature="e#3186#3210#0" expanded="true" />
-            <element signature="e#3894#3918#0" expanded="true" />
-            <marker date="1492900208266" expanded="true" signature="3266:3424" ph="{...}" />
-            <marker date="1492900208266" expanded="true" signature="3497:3689" ph="{...}" />
-            <marker date="1492900208266" expanded="true" signature="3775:3883" ph="{...}" />
-            <marker date="1492900208266" expanded="true" signature="3969:4177" ph="{...}" />
-            <marker date="1492900208266" expanded="true" signature="4288:4332" ph="{...}" />
-            <marker date="1492900208266" expanded="true" signature="4483:4627" ph="{...}" />
-            <marker date="1492900208266" expanded="true" signature="4695:4741" ph="{...}" />
+            <element signature="e#3188#3212#0" expanded="true" />
+            <element signature="e#3896#3920#0" expanded="true" />
+            <element signature="e#4345#4369#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DenialOfServiceAnalyzer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testMain.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="17" selection-end-column="71" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="37" column="29" lean-forward="false" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -674,56 +745,6 @@
           <folding>
             <element signature="e#49#75#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Configuration.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-          <folding>
-            <element signature="e#59#76#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PortScanAnalyzer.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DenialOfServiceAnalyzer.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Configuration.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="36" column="26" lean-forward="false" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DenialOfServiceAnalyzer.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-528">
-          <caret line="45" column="50" lean-forward="false" selection-start-line="45" selection-start-column="50" selection-end-line="45" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PortScanAnalyzer.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="71" column="19" lean-forward="false" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
